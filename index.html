@@ -6,17 +6,29 @@
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Q Chown</title>
 </head>
 <body>
-    
+
+  <i id="menu-span" onclick="openNav()" class="fas fa-bars"></i>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="/portfolio.html">Portfolio</a>
+      <a href="#">About Me</a>
+
+    </div>
+  </div>
+
+
+
     <?xml version="1.0" encoding="utf-8"?>
     <!--Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)-->
-    <svg id="qhc-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 768">
+    <svg style="position: fixed;" id="qhc-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 768">
       <style>
         .st2{fill:#007CC7}.st3{fill:#FFFFFF}.st4{fill:#EEFBFB}
       </style>
-      <g id="Layer_1">
+      <g id="Layer_1" style="position: fixed;">
         <circle class="st2" cx="669" cy="358" r="237"/>
         <path class="st3" d="M780.73 209.36h-36.87v14.84l36.87-.3zm-177.06 0H567v14.02l36.67.6zm140.19 90.16v29.41H603.67V294.4l-36.67.39v192.67h36.67V358.92h140.19v128.54h36.87V299.9z"/>
         <path class="st2" d="M608.67 204.36H562v18.94l46.67.76zm130.19 95.11v24.46H608.67v-29.58l-46.67.49v197.62h46.67V363.92h130.19v128.54h46.87V299.95zm46.87-95.11h-46.87v19.89l46.87-.39z"/>
@@ -36,135 +48,53 @@
         <path class="square" fill="none" stroke="#4DA8DA" stroke-miterlimit="10" d="M769.14 50l162.04 117.73 61.89 190.48-61.89 190.48-162.04 117.73H568.86L406.82 548.69l-61.89-190.48 61.89-190.48L568.86 50z"/>
         <path class="polygon" fill="none" stroke="#EEFBFB" stroke-miterlimit="10" d="M323.5 4.5h701v701h-701z"/>
       </g>
-    </svg> <div id="hero-background" >  
-     <div></div>
-     <div></div> 
+    </svg> 
 
-</div>  
+ <div  id="hero-background" >  
+      <div></div>
+      <div></div> 
 
-<nav role="navigation">
-    <div id="menuToggle">  
-      <input type="checkbox" />
-      <span></span>
-      <span></span>
-      <span></span>
-      <ul id="menu">
-        <a href="#"><li>Home</li></a>
-        <a href="#"><li>About</li></a>
-        <a href="#"><li>Info</li></a>
-        <a href="#"><li>Contact</li></a>
-      </ul>
+  </div>  
+
+
+
+
+  <!-- <div style="position: fixed;" class="scroll-arrows">
+    <div class="arrow"></div>
+    <div class="arrow"></div>
+    <div class="arrow"></div>
+  </div> -->
+
+
+
+<!-- <div id="info-sec">
+    <div>
+      <div id="nav">
+        <ul>
+          <a href="/portfolio.html"><li>Portfolio</li></a>
+          <a href="#"><li>About</li></a>
+          <a href=""><li>Resume</li></a>
+          <a href=""><li>Lets have a drink</li></a>
+          
+          
+        </ul>
+
+      </div>
     </div>
-  </nav>
-
-  <div class="scroll-arrows">
-    <div class="arrow"></div>
-    <div class="arrow"></div>
-    <div class="arrow"></div>
-  </div>
 
 
 
-
- <div id="info-section">
-    <div id="hero-wrapper">
-
-
-        <div id="hero-text">  
-            <div>
-              <!-- <img src="IMG-20200922-WA0008.jpg" alt=""> -->
-                <h1>Quentin Chown</h1>
-                <p id="curve-text2">Resourceful Front End Web Developer bringing in-depth knowledge of latest technology trends to produce a clean website design. </p>
-            </div>
-            <div>  
-                <img src="website-computer-mockup.gif" alt="work example animation">
-            </div>
-        </div>
-        <div id="skill">
-          <div class="skill-block">
-            <img class="skills" src="/images/responsive.svg" alt="">
-            <h2 class="skill-text">Responsive</h2>
-            <p class="skill-text">My projects will work on any device big or small</p>
-          </div>
-          <div class="skill-block">
-            <img class="skills" src="/images/diagram.svg" alt="">
-            <h2 class="skill-text">SEO</h2>
-            <p class="skill-text">Ensuring optimal SEO to increase quality of each project while increasing web traffic</p>
-          </div>
-          <div class="skill-block">
-            <img class="skills" src="/images/performance.svg" alt="">
-            <h2 class="skill-text">Speed</h2>
-            <p class="skill-text">Giving each web page fast load times with precise coding practices</p>
-          </div>
-          <div class="skill-block">
-            <img class="skills" src="/images/web-design.svg" alt="">
-            <h2 class="skill-text">Ux/Ui design</h2>
-            <p class="skill-text">Beautiful web designs with simple animations the bring the page to life</p>
-          </div>
-        </div>
+</div> -->
 
 
 
-
-
-
-
-    </div>
-    <svg id="test-svg-curve2" viewBox="0 0 1439 320" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
-      <path d="M520 149C320.637 248.201 111.244 289.554 0 260.042V320H1439V51.5889C1131.29 -65.5257 738.678 40.1877 520 149Z" fill="#007cc7"></path>
-  </svg>
-</div>
-
-        <!-- Contact Form -->
-        <h1 id="contact-header">Contact Me </h1>
-        <div id="form-grid">
-        <div id="about-form">
-          <ul id="contact-info">
-            <h3>Contact Directly</h3>
-            <ul>
-            <li>Email</li>
-            <li>qhchown@gmail.com</li>
-          </ul>
-          <ul>
-            <li>Phone</li>
-            <li>1-403-909-7670</li>
-          </ul> 
-           <div id="social-container">
-            <ul id="social">
-        
-              <li><a target="_blank" href="https://www.linkedin.com/in/quentin-chown-99b79b171/"><img class="social-icons " src="/images/icons8-linkedin-50.svg" alt="linkedin icon"></a></li>
-        
-              <li><a target="_blank" href="https://github.com/Qchown31"><img class="social-icons " src="/images/icons8-github-50.svg" alt="github icon"></a></li>
-            </ul>
-          </div>
-          </ul>
-        </div>
-        <div class="contact-form">
-          <form name="contact" action="post" data-netlify="true" class="cf">
-            <div class="half left cf">
-              <input type="text" name="name" id="input-name" placeholder="Name">
-              <input type="email" name="email" id="input-email" placeholder="Email address">
-              <input type="text" name="subject" id="input-subject" placeholder="Subject">
-            </div>
-            <div class="half right cf">
-              <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
-            </div>  
-                <!-- <div>
-                  <input type="file" name="myfile" id="myfile" placeholder="Upload File" id="file-upload">
-                </div> -->
-            <input type="submit" value="Submit" id="input-submit">
-          </form>
-        </div>
-        
-        </div>
-        
         
         
 
 
 
+<script src="https://kit.fontawesome.com/03e1f056c0.js" crossorigin="anonymous"></script>
 
-<script src="circletype.min.js"></script>
 <script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 <script src="app.js"></script>
 </body>
