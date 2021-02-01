@@ -391,7 +391,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 1500px;
   width: 50vw;
   z-index: -2;
 }
@@ -401,7 +401,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  height: 100vh;
+  height: 1500px;
   width: 50vw;
   z-index: -2;
 }
